@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chess</title>
+    
+    <!-- Javascript -->
+    <script src="pieces.js"></script>
+    <script src="house.js"></script>
+    <script src="board.js"></script>
+    <script src="initialize.js"></script>
+    <script src="moves.js"></script>
+    <script src="evaluation.js"></script>
+    
+    <!-- Stylesheet -->
+    <style>
+      body {
+        background-color: #9ce6f0;
+      }
+      
+      #newGame {
+        position: absolute;
+        left: 420px;
+        text-align: center;
+        width: 100px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div>
+      <canvas id="gameCanvas" width=400 height=400></canvas>
+      <button onclick="window.location.reload();" id="newGame">New Game</button>
+    </div>
+    <br>
+    <img src="images/kwhite.png" id="kwhite">
+    <img src="images/kblack.png" id="kblack">
+    <img src="images/qwhite.png" id="qwhite">
+    <img src="images/qblack.png" id="qblack">
+    <img src="images/bwhite.png" id="bwhite">
+    <img src="images/bblack.png" id="bblack">
+    <img src="images/nwhite.png" id="nwhite">
+    <img src="images/nblack.png" id="nblack">
+    <img src="images/rwhite.png" id="rwhite">
+    <img src="images/rblack.png" id="rblack">
+    <img src="images/pwhite.png" id="pwhite">
+    <img src="images/pblack.png" id="pblack">
+  </body>
+  
+</html>
